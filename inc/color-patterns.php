@@ -304,7 +304,6 @@ body.colors-custom,
 .colors-custom .navigation-top .current_page_item > a,
 .colors-custom .main-navigation a:hover,
 .colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
-	color: hsl( ' . $hue . ', ' . $saturation . ', 46% ); /* base: #767676; */
 	color: rgb(218,33,136);
 }
 
@@ -323,7 +322,6 @@ body.colors-custom,
 .colors-custom .next.page-numbers:hover,
 .colors-custom .site-content .wp-playlist-light .wp-playlist-item:hover,
 .colors-custom .site-content .wp-playlist-light .wp-playlist-item:focus {
-	background: hsl( ' . esc_attr( $hue ) . ', ' . esc_attr( $saturation ) . ', 46% ); /* base: #767676; */
 	background: rgb(218,33,136);
 }
 
@@ -530,17 +528,14 @@ body.colors-custom,
 
 	.colors-custom .main-navigation li li:hover,
 	.colors-custom .main-navigation li li.focus {
-		background: hsl( ' . $hue . ', ' . $saturation . ', 46% ); /* base: #767676; */
 		background: rgb(218,33,136);
 	}
 
 	.colors-custom .navigation-top .menu-scroll-down {
-		color: hsl( ' . $hue . ', ' . $saturation . ', 46% ); /* base: #767676; */;
 		color: rgb(218,33,136);
 	}
 
 	.colors-custom abbr[title] {
-		border-bottom-color: hsl( ' . $hue . ', ' . $saturation . ', 46% ); /* base: #767676; */;
 		border-bottom-color: rgb(218,33,136);
 	}
 
